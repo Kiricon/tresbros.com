@@ -1,0 +1,102 @@
+body {
+    background: black;
+    // background-image: url('http://www.geocities.com/clipart/pbi/backgrounds/Generic/leaves.jpg');
+    padding: 0px;
+    margin: 0px;
+    font: 400 16px/1.7 proxima-nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+    overflow-x: hidden;
+}
+a {
+    color: #607D8B;
+}
+header {
+    color: white;
+    display: table;
+    margin: 10px auto;
+    font-size: 3em;
+    text-align: center;
+
+    img {
+        border-radius: 3px;
+    }
+
+}
+
+.section {
+    background: #333;
+    padding: 20px;
+    display: table;
+    width: calc( 100% - 40px);
+
+    img {
+        display: block;
+        margin: 0px auto;
+        border-radius: 3px;
+        max-width: 700px;
+        width: 100%;
+    }
+
+    .details {
+        text-align: center;
+        padding: 20px;
+        font-size: 1.2em;
+        color: #aaa;
+    }
+
+    .header {
+        color: #eee;
+        text-align: center;
+        font-size: 3em;
+    }
+}
+
+.section2 {
+    background: #111;
+}
+
+.section3 {
+    .crewContainer {
+        .crewMember {
+            float: left;
+            margin: 20px;
+            img {
+                height: 300px;
+                width: auto;
+                border-radius: 3px;
+            }
+        }
+    }
+}
+
+.section4 {
+    background: #111;
+}
+
+.twentytwenty {
+    background-image: url('/imgs/2020-5.jpg');
+    background-size: 100% 100%;
+    width: 500px;
+    height: 150px;
+    border-radius: 3px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 250px;
+    color: #eee;
+    cursor: pointer;
+
+    div {
+        background: rgba(0, 0, 0, 0.8);
+        display: block;
+    }
+}
+
+footer {
+    margin-top: 30px;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+
+    color: #eee;
+}
