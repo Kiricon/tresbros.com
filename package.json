@@ -1,0 +1,23 @@
+{
+  "name": "tresbros.com",
+  "version": "1.0.0",
+  "description": "Everything having to do with tresbros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiricon/tresbros.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kiricon/tresbros.com/issues"
+  },
+  "homepage": "https://github.com/Kiricon/tresbros.com#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1"
+  }
+}
