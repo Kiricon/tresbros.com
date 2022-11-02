@@ -19,7 +19,7 @@
   "homepage": "https://github.com/Kiricon/tresbros.com#readme",
   "dependencies": {
     "browser-sync": "^2.18.12",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-cached": "^1.1.1",
     "gulp-clean-css": "^3.4.2",
     "gulp-ruby-sass": "^2.1.1"
